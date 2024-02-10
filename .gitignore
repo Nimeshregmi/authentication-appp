@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/futh-auth/node_modules
+/futh-auth/.pnp
+/futh-auth/pnp.js
+/futh-auth/yarn/install-state.gz
+
+# Testing
+/futh-auth/coverage
+
+# Next.js
+/futh-auth/.next/
+/futh-auth/out/
+
+# Production
+/futh-auth/build
+
+# Miscellaneous
+/futh-auth/.DS_Store
+/futh-auth/*.pem
+
+# Debug
+/futh-auth/npm-debug.log*
+/futh-auth/yarn-debug.log*
+/futh-auth/yarn-error.log*
+
+# Local environment files
+/futh-auth/.env*.local
+
+# Vercel
+/futh-auth/.vercel
+
+# TypeScript
+/futh-auth/*.tsbuildinfo
+/futh-auth/next-env.d.ts
+
+# Django Virtual Environment
+/Full auth api/myenv
